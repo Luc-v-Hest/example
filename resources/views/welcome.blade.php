@@ -9,7 +9,9 @@
                 </h1>
 
                 @if ($weather)
-                    {{$weather}}
+                    <table>
+                        {{$weather}}
+                    </table>
                 @endif
 
                 <ul class="list-reset">
